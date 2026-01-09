@@ -1,0 +1,33 @@
+# ============================================
+# Backpack-Lighter Arbitrage Bot Configuration
+# ============================================
+# Copy this file to .env and fill in your credentials
+
+# =====================
+# Backpack Exchange
+# =====================
+# API public key from Backpack settings
+BACKPACK_PUBLIC_KEY=your_backpack_public_key_here
+
+# API secret key (base64 encoded)
+BACKPACK_SECRET_KEY=your_backpack_secret_key_here
+
+# =====================
+# Lighter Exchange
+# =====================
+# Private key for signing transactions
+API_KEY_PRIVATE_KEY=your_lighter_private_key_here
+
+# Account index on Lighter (usually 0)
+LIGHTER_ACCOUNT_INDEX=0
+
+# API key index (usually 0)
+LIGHTER_API_KEY_INDEX=0
+
+# =====================
+# Notes
+# =====================
+# 1. Keep your .env file secure and never commit it to version control
+# 2. Make sure both accounts have sufficient balance before running
+# 3. Start with small position sizes to test the setup
+
